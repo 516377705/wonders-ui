@@ -4,6 +4,12 @@ import Home from './views/Home.vue'
 
 Vue.use(Router)
 
+import "./assets/css/style.css"
+import "./assets/css/font/styles.css"
+import "./assets/css/font.css"
+import "./assets/css/app.css"
+
+
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
